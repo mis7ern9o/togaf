@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>A-Architecture Vision</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>A-Architecture Vision</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-WorkPackage"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-WorkPackage" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-96752527ea55430bb4f1dc1a674d26ce">
+																	<td><a href="../views/id-96752527ea55430bb4f1dc1a674d26ce.html" target="view" title="Togaf"> Togaf </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-60b9e918d57b48688c5844d489ac93cd">
+																	<td><a href="../views/id-60b9e918d57b48688c5844d489ac93cd.html" target="view" title="Requirements Management"> Requirements Management </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-e155d2e57d7a4dee9510c973c586ecaf">
+																	<td><a href="../views/id-e155d2e57d7a4dee9510c973c586ecaf.html" target="view" title="Architecture vision"> Architecture vision </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-932403eb7a024dfc8f56ed4753399b44">
+																	<td><a href="../views/id-932403eb7a024dfc8f56ed4753399b44.html" target="view" title="Phase A: Architecture Vision"> Phase A: Architecture Vision </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-dc2df77a33f0432fbbb1a930c55b1d2f">
+																	<td><a href="../views/id-dc2df77a33f0432fbbb1a930c55b1d2f.html" target="view" title="Capability Assessment"> Capability Assessment </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-1cb377d2cf6d412688ce3cd9d0f0507c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-d0374ee7d7a042ce936f11ccde31c66e.html" target="element"> Architecture vision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-deb2a40052044fd78faebb658f014236.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-InfluenceRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-c271e95c259442cdb1314d95d1729bc0.html" target="element"> Develop a high-level  vision of the capabilities / business value t</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-25704d130fc043e78013a771d0ade744.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-InfluenceRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-da196ebb9b4b4d1d8c7dd32e21eb95ec.html" target="element"> Obtain approval for a Statement of Architecture Work</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-6302876c8a5444929ee831a14ad0f25c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-2db20aae20654f6f994a79c47841d848.html" target="element"> request for architecture work</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f5b8ea62a0ea42f8b8254782caa8d3d3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-b2109cd813a74ad0bc0f105eb22d2928.html" target="element"> Business principles</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-49178deb9b5348358e78e5e2c1675270.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-dccb704f765f4612ba18e2822b54fdbb.html" target="element"> business drivers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5008d8fd13a94c639d1fcacdcf8e1dfc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-f21ab72e5ad8423dbb1ac4582a1ac349.html" target="element"> Organizational Model for Enterprise Architecture</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-0d0715bc3eda4854a3b2476c6b303fca.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-81e23acef7094d2998215096cc0c7212.html" target="element"> Tailor Architecture Framework</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-49ec081182d5431d8d60ea4b4a0cd230.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-f7d001078b5e465f88e4a2e59e7907c4.html" target="element"> Architecture repository</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2a49c007306d4a05a4ff190f11c59533.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-42e33f405c334bddae3aa4e6e85cf2e8.html" target="element"> Statement of Architecture Work</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9dbbb438e12b4d91a8824ef1cde95cb3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-fd0e00f547da4a18be624797edb0988f.html" target="element"> Architecture Principles</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e738c52362674076a5b0e72c0802daac.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-6880862c8cbf4b9dbd9dd7abc689388f.html" target="element"> Capability Assessment</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9ad7f25551c44c6fa816b5585a4e493a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-6b9da16784c04114b4ddb1e1b216fb02.html" target="element"> Architecture Definition Document</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ca3aeb11878d480cb230e20ddff288a9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-4e3f33c6974146f6b4a629cd7c0706ef.html" target="element"> Communications Plan</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ece82b8542f0496f9c0f61b714e0bb45.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-b2109cd813a74ad0bc0f105eb22d2928.html" target="element"> Business principles</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-fdda35b70d7841589cb4c8a2da0b51d0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-dccb704f765f4612ba18e2822b54fdbb.html" target="element"> business drivers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-85f2ac1fff4b441fa37c80858573d28d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-cf6de69390df4df78296af4679794ce6.html" target="element"> business goals</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-da77b23973244e9798eca9ace876b759.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-81e23acef7094d2998215096cc0c7212.html" target="element"> Tailor Architecture Framework</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7bd564c9eae1493587f24cd476250dcd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-a55a4f000c36479193fe9dda56e409e0.html" target="element"> B-Business Architecture</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3882e6a3ccf244f8bc4c88aa0677a0fa.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-279935e666ea4b9fb52b4e215439bd6a.html" target="element"> Requirements Management</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dc61c53112444316a2d9549c3f6d98e7.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-df79525ae03346cc96c45473b8c19932.html" target="element"> Establish the architecture project</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-25b453dc866440268ebc98f85f084e53.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-cd259f6d50904b5da9e64136ffbfc7b2.html" target="element"> Identify stakeholders, concerns, and business requirements</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8d57db98ab9248249ff3fadd109ce9c4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-7264388a205342d2a8bbc829896b91c0.html" target="element"> Confirm and elaborate business goals, business drivers, and constraints</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-78c3a8f445394802bff129a857c1b71c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-93629923d8f142f3bcfce6cac3aee831.html" target="element"> Evaluate capabilities</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a48dfa496ee447aa901a7d1934cdee8c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-d2f58ed7ba8a42d895fd630406134c92.html" target="element"> Assess readiness for business transformation</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ca3eb70bb22a445d821131c5436cb3f8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-f952d5597ec34e18852c1c2b8834dd4e.html" target="element"> Define scope</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1b122f4d14344e1a8780e73b4d46fa3d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-5fa01154865f4a4caa47687decb18d25.html" target="element"> Confirm and elaborate Architecture Principles, including business principles</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-103194b4ef8e4722a6aa86d245b6181b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-cf6de69390df4df78296af4679794ce6.html" target="element"> business goals</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1ee52ee116024fc5bddfe9c068de7dcf.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-9b9e8fdea5e2447b898bc1f864d1654a.html" target="element"> Develop Architecture Vision</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-0f15b7205a2e43a59f2d53222f8c6459.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-61f6ba0f2a0f461c95e4fa52438a45cc.html" target="element"> Define the Target Architecture value propositions and KPIs</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-10a4c6a187a64b8592d2b4c46b99a90f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-35c71008e33044fab771acba6c826f80.html" target="element"> Identify the business transformation risks and mitigation activities</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1c2ab024ac224e63975923ef434a8219.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+											<td><a href="../elements/id-edbf5af9a2ad4eb59427c529a12352e9.html" target="element"> Develop Statement of Architecture Work</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-bac6e2e8c3a34388a548e42e06f739a3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/id-9c11277703d8423c9f64c081fd425a71.html" target="element"> Preliminary Phase</a></td>
+											<td><a href="../elements/id-484369cfd86f4c0596cf8c658b735d19.html" target="element"> A-Architecture Vision</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
